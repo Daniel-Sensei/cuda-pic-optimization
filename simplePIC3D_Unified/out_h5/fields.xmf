@@ -1,0 +1,237 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd"> 
+<Xdmf Version="2.0"> 
+  <Domain> 
+    <Grid Name="TimeSeries" GridType="Collection" CollectionType="Temporal"> 
+ 
+      <Time TimeType="List"> 
+        <DataItem Format="XML" NumberType="Float" Dimensions="6"> 
+          0 2 4 6 8 10 
+        </DataItem> 
+      </Time> 
+
+      <Grid Name="Structured mesh" GridType="Uniform"> 
+        <Topology TopologyType="3DCoRectMesh" Dimensions="3 129 129"/> 
+        <Geometry GeometryType="ORIGIN_DXDYDZ"> 
+          <DataItem Format="XML" Dimensions="3" NumberType="Float"> 
+          0.0000 0.0000 0.0000
+          </DataItem> 
+          <DataItem Format="XML" Dimensions="3" NumberType="Float"> 
+          0.0200 0.0200 0.0200
+          </DataItem> 
+        </Geometry> 
+        <Attribute Name="rho_0" Center="Node"> 
+          <DataItem Format="HDF" Dimensions="3 129 129" NumberType="Float"> 
+          fields_000000.h5:/Step#0/Block/rho0/0
+          </DataItem> 
+        </Attribute> 
+        <Attribute Name="rho_1" Center="Node"> 
+          <DataItem Format="HDF" Dimensions="3 129 129" NumberType="Float"> 
+          fields_000000.h5:/Step#0/Block/rho1/0
+          </DataItem> 
+        </Attribute> 
+        <Attribute Name="Ex" Center="Node"> 
+          <DataItem Format="HDF" Dimensions="3 129 129" NumberType="Float"> 
+          fields_000000.h5:/Step#0/Block/Exn/0
+          </DataItem> 
+        </Attribute> 
+        <Attribute Name="Ey" Center="Node"> 
+          <DataItem Format="HDF" Dimensions="3 129 129" NumberType="Float"> 
+          fields_000000.h5:/Step#0/Block/Eyn/0
+          </DataItem> 
+        </Attribute> 
+        <Attribute Name="Ez" Center="Node"> 
+          <DataItem Format="HDF" Dimensions="3 129 129" NumberType="Float"> 
+          fields_000000.h5:/Step#0/Block/Ezn/0
+          </DataItem> 
+        </Attribute> 
+      </Grid> 
+
+      <Grid Name="Structured mesh" GridType="Uniform"> 
+        <Topology TopologyType="3DCoRectMesh" Dimensions="3 129 129"/> 
+        <Geometry GeometryType="ORIGIN_DXDYDZ"> 
+          <DataItem Format="XML" Dimensions="3" NumberType="Float"> 
+          0.0000 0.0000 0.0000
+          </DataItem> 
+          <DataItem Format="XML" Dimensions="3" NumberType="Float"> 
+          0.0200 0.0200 0.0200
+          </DataItem> 
+        </Geometry> 
+        <Attribute Name="rho_0" Center="Node"> 
+          <DataItem Format="HDF" Dimensions="3 129 129" NumberType="Float"> 
+          fields_000002.h5:/Step#0/Block/rho0/0
+          </DataItem> 
+        </Attribute> 
+        <Attribute Name="rho_1" Center="Node"> 
+          <DataItem Format="HDF" Dimensions="3 129 129" NumberType="Float"> 
+          fields_000002.h5:/Step#0/Block/rho1/0
+          </DataItem> 
+        </Attribute> 
+        <Attribute Name="Ex" Center="Node"> 
+          <DataItem Format="HDF" Dimensions="3 129 129" NumberType="Float"> 
+          fields_000002.h5:/Step#0/Block/Exn/0
+          </DataItem> 
+        </Attribute> 
+        <Attribute Name="Ey" Center="Node"> 
+          <DataItem Format="HDF" Dimensions="3 129 129" NumberType="Float"> 
+          fields_000002.h5:/Step#0/Block/Eyn/0
+          </DataItem> 
+        </Attribute> 
+        <Attribute Name="Ez" Center="Node"> 
+          <DataItem Format="HDF" Dimensions="3 129 129" NumberType="Float"> 
+          fields_000002.h5:/Step#0/Block/Ezn/0
+          </DataItem> 
+        </Attribute> 
+      </Grid> 
+
+      <Grid Name="Structured mesh" GridType="Uniform"> 
+        <Topology TopologyType="3DCoRectMesh" Dimensions="3 129 129"/> 
+        <Geometry GeometryType="ORIGIN_DXDYDZ"> 
+          <DataItem Format="XML" Dimensions="3" NumberType="Float"> 
+          0.0000 0.0000 0.0000
+          </DataItem> 
+          <DataItem Format="XML" Dimensions="3" NumberType="Float"> 
+          0.0200 0.0200 0.0200
+          </DataItem> 
+        </Geometry> 
+        <Attribute Name="rho_0" Center="Node"> 
+          <DataItem Format="HDF" Dimensions="3 129 129" NumberType="Float"> 
+          fields_000004.h5:/Step#0/Block/rho0/0
+          </DataItem> 
+        </Attribute> 
+        <Attribute Name="rho_1" Center="Node"> 
+          <DataItem Format="HDF" Dimensions="3 129 129" NumberType="Float"> 
+          fields_000004.h5:/Step#0/Block/rho1/0
+          </DataItem> 
+        </Attribute> 
+        <Attribute Name="Ex" Center="Node"> 
+          <DataItem Format="HDF" Dimensions="3 129 129" NumberType="Float"> 
+          fields_000004.h5:/Step#0/Block/Exn/0
+          </DataItem> 
+        </Attribute> 
+        <Attribute Name="Ey" Center="Node"> 
+          <DataItem Format="HDF" Dimensions="3 129 129" NumberType="Float"> 
+          fields_000004.h5:/Step#0/Block/Eyn/0
+          </DataItem> 
+        </Attribute> 
+        <Attribute Name="Ez" Center="Node"> 
+          <DataItem Format="HDF" Dimensions="3 129 129" NumberType="Float"> 
+          fields_000004.h5:/Step#0/Block/Ezn/0
+          </DataItem> 
+        </Attribute> 
+      </Grid> 
+
+      <Grid Name="Structured mesh" GridType="Uniform"> 
+        <Topology TopologyType="3DCoRectMesh" Dimensions="3 129 129"/> 
+        <Geometry GeometryType="ORIGIN_DXDYDZ"> 
+          <DataItem Format="XML" Dimensions="3" NumberType="Float"> 
+          0.0000 0.0000 0.0000
+          </DataItem> 
+          <DataItem Format="XML" Dimensions="3" NumberType="Float"> 
+          0.0200 0.0200 0.0200
+          </DataItem> 
+        </Geometry> 
+        <Attribute Name="rho_0" Center="Node"> 
+          <DataItem Format="HDF" Dimensions="3 129 129" NumberType="Float"> 
+          fields_000006.h5:/Step#0/Block/rho0/0
+          </DataItem> 
+        </Attribute> 
+        <Attribute Name="rho_1" Center="Node"> 
+          <DataItem Format="HDF" Dimensions="3 129 129" NumberType="Float"> 
+          fields_000006.h5:/Step#0/Block/rho1/0
+          </DataItem> 
+        </Attribute> 
+        <Attribute Name="Ex" Center="Node"> 
+          <DataItem Format="HDF" Dimensions="3 129 129" NumberType="Float"> 
+          fields_000006.h5:/Step#0/Block/Exn/0
+          </DataItem> 
+        </Attribute> 
+        <Attribute Name="Ey" Center="Node"> 
+          <DataItem Format="HDF" Dimensions="3 129 129" NumberType="Float"> 
+          fields_000006.h5:/Step#0/Block/Eyn/0
+          </DataItem> 
+        </Attribute> 
+        <Attribute Name="Ez" Center="Node"> 
+          <DataItem Format="HDF" Dimensions="3 129 129" NumberType="Float"> 
+          fields_000006.h5:/Step#0/Block/Ezn/0
+          </DataItem> 
+        </Attribute> 
+      </Grid> 
+
+      <Grid Name="Structured mesh" GridType="Uniform"> 
+        <Topology TopologyType="3DCoRectMesh" Dimensions="3 129 129"/> 
+        <Geometry GeometryType="ORIGIN_DXDYDZ"> 
+          <DataItem Format="XML" Dimensions="3" NumberType="Float"> 
+          0.0000 0.0000 0.0000
+          </DataItem> 
+          <DataItem Format="XML" Dimensions="3" NumberType="Float"> 
+          0.0200 0.0200 0.0200
+          </DataItem> 
+        </Geometry> 
+        <Attribute Name="rho_0" Center="Node"> 
+          <DataItem Format="HDF" Dimensions="3 129 129" NumberType="Float"> 
+          fields_000008.h5:/Step#0/Block/rho0/0
+          </DataItem> 
+        </Attribute> 
+        <Attribute Name="rho_1" Center="Node"> 
+          <DataItem Format="HDF" Dimensions="3 129 129" NumberType="Float"> 
+          fields_000008.h5:/Step#0/Block/rho1/0
+          </DataItem> 
+        </Attribute> 
+        <Attribute Name="Ex" Center="Node"> 
+          <DataItem Format="HDF" Dimensions="3 129 129" NumberType="Float"> 
+          fields_000008.h5:/Step#0/Block/Exn/0
+          </DataItem> 
+        </Attribute> 
+        <Attribute Name="Ey" Center="Node"> 
+          <DataItem Format="HDF" Dimensions="3 129 129" NumberType="Float"> 
+          fields_000008.h5:/Step#0/Block/Eyn/0
+          </DataItem> 
+        </Attribute> 
+        <Attribute Name="Ez" Center="Node"> 
+          <DataItem Format="HDF" Dimensions="3 129 129" NumberType="Float"> 
+          fields_000008.h5:/Step#0/Block/Ezn/0
+          </DataItem> 
+        </Attribute> 
+      </Grid> 
+
+      <Grid Name="Structured mesh" GridType="Uniform"> 
+        <Topology TopologyType="3DCoRectMesh" Dimensions="3 129 129"/> 
+        <Geometry GeometryType="ORIGIN_DXDYDZ"> 
+          <DataItem Format="XML" Dimensions="3" NumberType="Float"> 
+          0.0000 0.0000 0.0000
+          </DataItem> 
+          <DataItem Format="XML" Dimensions="3" NumberType="Float"> 
+          0.0200 0.0200 0.0200
+          </DataItem> 
+        </Geometry> 
+        <Attribute Name="rho_0" Center="Node"> 
+          <DataItem Format="HDF" Dimensions="3 129 129" NumberType="Float"> 
+          fields_000010.h5:/Step#0/Block/rho0/0
+          </DataItem> 
+        </Attribute> 
+        <Attribute Name="rho_1" Center="Node"> 
+          <DataItem Format="HDF" Dimensions="3 129 129" NumberType="Float"> 
+          fields_000010.h5:/Step#0/Block/rho1/0
+          </DataItem> 
+        </Attribute> 
+        <Attribute Name="Ex" Center="Node"> 
+          <DataItem Format="HDF" Dimensions="3 129 129" NumberType="Float"> 
+          fields_000010.h5:/Step#0/Block/Exn/0
+          </DataItem> 
+        </Attribute> 
+        <Attribute Name="Ey" Center="Node"> 
+          <DataItem Format="HDF" Dimensions="3 129 129" NumberType="Float"> 
+          fields_000010.h5:/Step#0/Block/Eyn/0
+          </DataItem> 
+        </Attribute> 
+        <Attribute Name="Ez" Center="Node"> 
+          <DataItem Format="HDF" Dimensions="3 129 129" NumberType="Float"> 
+          fields_000010.h5:/Step#0/Block/Ezn/0
+          </DataItem> 
+        </Attribute> 
+      </Grid> 
+
+    </Grid> 
+  </Domain> 
+</Xdmf> 
